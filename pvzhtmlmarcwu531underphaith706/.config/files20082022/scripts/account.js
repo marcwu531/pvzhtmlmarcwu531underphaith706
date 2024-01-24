@@ -4,6 +4,11 @@ function getLoginMenu() {
 var loginMenu;
 loginMenu = getEById("loginMenu")
 loginMenu.innerText = "Login";
+username = getEById("username")
+password = getEById("password")
+
+username.style.display = "none"
+password.style.display = "none"
 
 function login() {
   loginMenu != undefined ? () => {} : getLoginMenu()
@@ -13,4 +18,6 @@ function login() {
   } else {
     loginMenu.innerText = "Back to game"
   }
+  username.style.display = loginMenu.style.display
+  password.style.display = loginMenu.style.display
 }
