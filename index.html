@@ -14,7 +14,6 @@
       <script src="general.js"></script>
       
       <script>
-        document.write(`<script src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/scripts/html.js"><` + '/script>')
         //never gonna give you up
         //haha got rickrolled again
         document.getElementById("background").onload = async function () {
@@ -35,15 +34,20 @@
           document.onkeyup = checkKeyup;
           document.addEventListener('mousedown', handleMouseDown);
           document.addEventListener('mouseup', handleMouseUp);
+          var isGameStarted = false
           //e.button
           //0 is left, 1 is middle, 2 is right
       
           function handleMouseDown(e) {
             if (e.button == 0) {
+              if (!isGameStarted) {
+                isGameStarted = true
+                document.write(`<script src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/scripts/html.js"><` + '/script>')
+              } else {
               sunClicked()
               if (moving && movingId != null) {
                 stop(movingId)
-              }
+              }}
             }
             if (e.button == 1) {
               //console.log("X: " + mouseX + ", Y: " + mouseY)
@@ -98,7 +102,7 @@
           //document.write('<script>window.open("about:blank", "_self").close()<'+'/script>')
       
       
-          function genNum(num) {
+          /*function genNum(num) {
             return new BigNumber(num, 100, BigNumber.ROUND_FLOOR)
           }
       
@@ -175,11 +179,11 @@
           } else {
             //alert("3")
             document.write(`<script src="../node_modules/files` + fileId + `/scripts/html.js"><` + '/script>')
-          }
+          }*/
         }
       </script>
 </html>
 
 <!--
-version: 1.0.0.d.-1
+version: 1.0.0.d.-2
 -->
