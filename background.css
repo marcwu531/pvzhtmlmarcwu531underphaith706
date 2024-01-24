@@ -1,1 +1,22 @@
-#background, .background { z-index: 100; -webkit-user-drag: none; -ms-user-select: none; user-select: none; -webkit-user-select: none; -moz-user-select: none; }
+#background, .background { z-index: 100; -webkit-user-drag: none; -ms-user-select: none; user-select: none; -webkit-user-select: none; -moz-user-select: none; position: absolute;}
+
+#LoadBar_dirt {
+    z-index: 102; -webkit-user-drag: none; -ms-user-select: none; user-select: none; -webkit-user-select: none; -moz-user-select: none; position: absolute;
+    left: 239.5px;
+    top: 550px;
+}
+
+#LoadBar_grass {
+    z-index: 101; -webkit-user-drag: none; -ms-user-select: none; user-select: none; -webkit-user-select: none; -moz-user-select: none; position: absolute;
+    left: 235px;
+    top: 530px;
+}
+
+#clickToStart {
+    z-index: 103; -webkit-user-drag: none; -ms-user-select: none; user-select: none; -webkit-user-select: none; -moz-user-select: none; position: absolute;
+    left: 325px;
+    top: 563px;
+    width: 531px;
+    height: 1px;
+    color: yellow;
+}
