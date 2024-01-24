@@ -1,7 +1,7 @@
 document.write(`
 <!--If you somehow see this, I just wanna say, README.md exists and all rights reserved, not allowing any form of copying-->
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=0, user-scramble=no">
 <style type="text/css">
   html {
@@ -16,9 +16,9 @@ alert("loading")
 
 <head>
   <link rel="stylesheet" href="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/scripts/style.css">
-  <!--<link rel="preload" href="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/titlescreen.jpg" as="script">
+  <!--<link rel="preload" href="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/titlescreen.webp" as="script">
   <div id="background">
-    <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/titlescreen.jpg" loading="eager" class="not_drag">
+    <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/titlescreen.webp" loading="eager" class="not_drag">
   </div>
   <script>
 document.getElementById("background").style.zIndex = 100
@@ -52,7 +52,7 @@ document.getElementById("background").style.zIndex = 100
   </audio>
   <div id="border" class="not_drag">
     <div id="plant1" onclick="start(0)">
-      <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/PeashooterSeedPacket.png" width="35" height="49" class="not_drag">
+      <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/PeashooterSeedPacket.webp" width="35" height="49" class="not_drag">
       <!--50x70-->
     </div>
     <div id="plant2">
@@ -62,16 +62,16 @@ document.getElementById("background").style.zIndex = 100
       <img id="peashooterGif" src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/peashooter.gif" width="50" height="50" class="not_drag">
     </div>
     <div id="proj1">
-      <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/pea.png" width="15" height="15" class="not_drag">
+      <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/pea.webp" width="15" height="15" class="not_drag">
     </div>
     <div id="proj2">
-      <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/snowPea.png" width="15" height="15" class="not_drag">
+      <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/snowPea.webp" width="15" height="15" class="not_drag">
     </div>
     <div id="proj3">
-      <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/puff.png" width="15" height="15" class="not_drag">
+      <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/puff.webp" width="15" height="15" class="not_drag">
     </div>
     <div id="zombie1">
-      <!-- <img src="inflation.png" width="25" height="50" class="not_drag"> -->
+      <!-- <img src="inflation.webp" width="25" height="50" class="not_drag"> -->
     </div>
     <div id="circle6"></div>
     <div id="circle7">
@@ -81,7 +81,7 @@ document.getElementById("background").style.zIndex = 100
       <!--test-->50
     </div>
     <div id="plant4" onclick="start(1)">
-      <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/SunflowerSeedPacket.png" width="35" height="49" class="not_drag">
+      <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/SunflowerSeedPacket.webp" width="35" height="49" class="not_drag">
     </div>
     <div id="plant5">
       <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/sunflower.gif" width="50" height="50" class="not_drag">
@@ -90,10 +90,10 @@ document.getElementById("background").style.zIndex = 100
       <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/sunflower.gif" width="50" height="50" class="not_drag">
     </div>
     <!--<div id="cone">
-      <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/cone.png" width="25" height="20">
+      <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/cone.webp" width="25" height="20">
     </div>-->
     <div id="plant7" onclick="start(2)">
-      <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/CherryBombSeedPacket.png" width="35" height="49" class="not_drag">
+      <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/CherryBombSeedPacket.webp" width="35" height="49" class="not_drag">
     </div>
     <div id="plant8">
       <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/cherry_bomb.gif" width="70" height="50" class="not_drag">
@@ -102,7 +102,7 @@ document.getElementById("background").style.zIndex = 100
       <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/cherry_bomb.gif" width="70" height="50" class="not_drag">
     </div>
     <div id="plant10" onclick="start(3)">
-      <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/Wall-nutSeedPacket.png" width="35" height="49" class="not_drag">
+      <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/Wall-nutSeedPacket.webp" width="35" height="49" class="not_drag">
     </div>
     <div id="plant11">
       <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/wallnut.gif" width="50" height="50" class="not_drag">
@@ -111,16 +111,16 @@ document.getElementById("background").style.zIndex = 100
       <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/wallnut.gif" width="50" height="50" class="not_drag">
     </div>
     <div id="plant13" onclick="start(4)">
-      <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/potato_mineSeedPacket.png" width="35" height="49" class="not_drag">
+      <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/potato_mineSeedPacket.webp" width="35" height="49" class="not_drag">
     </div>
     <div id="plant14">
-      <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/potato_mine_growing.png" width="60" height="49" class="not_drag">
+      <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/potato_mine_growing.webp" width="60" height="49" class="not_drag">
     </div>
     <div id="plant15">
-      <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/potato_mine_growing.png" width="40" height="40" class="not_drag">
+      <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/potato_mine_growing.webp" width="40" height="40" class="not_drag">
     </div> <!-- 70x70 for grown potato mine -->
     <div id="plant16" onclick="start(5)">
-      <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/snowPeaSeedPacket.png" width="35" height="49" class="not_drag">
+      <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/snowPeaSeedPacket.webp" width="35" height="49" class="not_drag">
     </div>
     <div id="plant17">
       <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/snowPea.gif" width="50" height="50" class="not_drag">
@@ -129,7 +129,7 @@ document.getElementById("background").style.zIndex = 100
       <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/snowPea.gif" width="50" height="50" class="not_drag">
     </div>
     <div id="plant19" onclick="start(6)">
-      <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/chomperSeedPacket.png" width="35" height="49" class="not_drag">
+      <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/chomperSeedPacket.webp" width="35" height="49" class="not_drag">
     </div>
     <div id="plant20">
       <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/chomper.gif" width="75" height="55" class="not_drag">
@@ -138,7 +138,7 @@ document.getElementById("background").style.zIndex = 100
       <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/chomper.gif" width="75" height="55" class="not_drag">
     </div>
     <div id="plant22" onclick="start(7)">
-      <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/repeaterSeedPacket.png" width="35" height="49" class="not_drag">
+      <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/repeaterSeedPacket.webp" width="35" height="49" class="not_drag">
     </div>
     <div id="plant23">
       <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/repeater.gif" width="50" height="50" class="not_drag">
@@ -147,7 +147,7 @@ document.getElementById("background").style.zIndex = 100
       <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/repeater.gif" width="50" height="50" class="not_drag">
     </div>
     <div id="plant25" onclick="start(8)">
-      <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/puffShroomSeedPacket.png" width="35" height="49" class="not_drag">
+      <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/puffShroomSeedPacket.webp" width="35" height="49" class="not_drag">
     </div>
     <div id="plant26">
       <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/PuffShroom.gif" width="50" height="50" class="not_drag">
@@ -157,7 +157,7 @@ document.getElementById("background").style.zIndex = 100
     </div>
     </div>
     <div id="plant28" onclick="start(9)">
-      <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/sunShroomSeedPacket.png" width="35" height="49" class="not_drag">
+      <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/sunShroomSeedPacket.webp" width="35" height="49" class="not_drag">
     </div>
     <div id="plant29">
       <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/SunShroom.gif" width="50" height="50" class="not_drag">
@@ -166,28 +166,28 @@ document.getElementById("background").style.zIndex = 100
       <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/SunShroom.gif" width="50" height="50" class="not_drag">
     </div>
     <!--<div id="plant61" onclick="start(20)">
-      <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/JalapenoSeedPacket.png" width="35" height="49" class="not_drag">
+      <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/JalapenoSeedPacket.webp" width="35" height="49" class="not_drag">
     </div>-->
     <div id="CysBg">
-      <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/SeedChooser_Background.png" width="300" height="300" class="not_drag">
+      <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/SeedChooser_Background.webp" width="300" height="300" class="not_drag">
     </div>
     <div id="SeedBank">
-      <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/SeedBank.png" width="300" height="60" class="not_drag">
+      <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/SeedBank.webp" width="300" height="60" class="not_drag">
     </div>
     <div id="LetsRock">
-      <img id="LR" src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/SeedChooser_Button_Disabled.png" width="100" height="25" class="not_drag">
+      <img id="LR" src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/SeedChooser_Button_Disabled.webp" width="100" height="25" class="not_drag">
     </div>
     <div id="LetsRockRd" onclick="startButton()">
-      <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/SeedChooser_Button.png" width="100" height="25" class="not_drag">
+      <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/SeedChooser_Button.webp" width="100" height="25" class="not_drag">
     </div>
     <div id="randomSeed" onclick="randomSeeds()">
-      <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/SeedChooser_Button2.png" width="100" height="25" class="not_drag">
+      <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/SeedChooser_Button2.webp" width="100" height="25" class="not_drag">
     </div>
     <div id="randomSeedText" onclick="randomSeeds()">
       Random&nbsp;Seed
     </div>
     <div id="background">
-      <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/background1.png" width="1000" height="450" class="bg">
+      <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/background1.webp" width="1000" height="450" class="bg">
     </div>
     <div id="downBorder"></div>
     <div id="rightBorder"></div>
@@ -237,38 +237,38 @@ document.getElementById("background").style.zIndex = 100
       <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/zombie_paper_nopaper_eat.gif" width="90" height="135" class="not_drag">
     </div>
     <div id="lawnMower1">
-      <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/lawnMower.png" width="48" height="40" class="not_drag"> <!-- 6:5 -->
+      <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/lawnMower.webp" width="48" height="40" class="not_drag"> <!-- 6:5 -->
     </div>
     <div id="lawnMower2">
-      <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/lawnMower.png" width="48" height="40" class="not_drag"> <!-- 6:5 -->
+      <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/lawnMower.webp" width="48" height="40" class="not_drag"> <!-- 6:5 -->
     </div>
     <div id="lawnMower3">
-      <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/lawnMower.png" width="48" height="40" class="not_drag"> <!-- 6:5 -->
+      <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/lawnMower.webp" width="48" height="40" class="not_drag"> <!-- 6:5 -->
     </div>
     <div id="lawnMower4">
-      <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/lawnMower.png" width="48" height="40" class="not_drag"> <!-- 6:5 -->
+      <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/lawnMower.webp" width="48" height="40" class="not_drag"> <!-- 6:5 -->
     </div>
     <div id="lawnMower5">
-      <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/lawnMower.png" width="48" height="40" class="not_drag"> <!-- 6:5 -->
+      <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/lawnMower.webp" width="48" height="40" class="not_drag"> <!-- 6:5 -->
     </div>
     <div id="startSet">
-      <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/StartSet.png">
+      <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/StartSet.webp">
     </div>
     <div id="startReady">
-      <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/StartReady.png">
+      <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/StartReady.webp">
     </div>
     <div id="startPlant">
-      <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/StartPlant.png">
+      <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/StartPlant.webp">
     </div>
     <div id="ZombiesWon">
-      <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/ZombiesWon.png" height="100" width="100">
+      <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/ZombiesWon.webp" height="100" width="100">
     </div>
     <div id="borderBig"></div>
     <div id="shovel">
-      <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/Shovel.png" height="50" width="50" onclick="shovelClicked(true)" oncontextmenu="shovelClicked(false)">
+      <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/Shovel.webp" height="50" width="50" onclick="shovelClicked(true)" oncontextmenu="shovelClicked(false)">
     </div>
     <div id="shovelBank">
-      <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/ShovelBank.png" height="60" width="60">
+      <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/ShovelBank.webp" height="60" width="60">
     </div>
     <div id="powie">
       <img src="../pvzhtmlmarcwu531underphaith706/pvzhtmlmarcwu531underphaith706/.config/files20082022/images/powie.gif" height="180" width="240">
