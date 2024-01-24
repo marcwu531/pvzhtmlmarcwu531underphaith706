@@ -1,0 +1,175 @@
+<!--
+    <script src="ai.js"></script>
+    <script src="failedGettingFiles.js"></script>
+    -->
+
+<link rel="preload" href="background.css" as="script">
+<link rel="preload" href="titlescreen.jpg" as="script">
+<img src="titlescreen.jpg" loading="eager" id="background" class="background">
+<script src="bigNumber.js"></script>
+<script src="general.js"></script>
+
+<script>
+  //never gonna give you up
+  //haha got rickrolled again
+  document.getElementById("background").onload = async function () {
+    await new Promise(resolve => setTimeout(resolve, 1000));
+    var checkDebug = setInterval(function () {
+      checkIfClose()
+    }, 1)
+
+    function checkIfClose() {
+      //alert(window.outerHeight - window.innerHeight)
+      if (!debugging && (window.outerWidth - window.innerWidth) > 117 && (window.outerWidth - window.innerWidth) != 762) {
+        //alert(window.outerWidth - window.innerWidth)
+        window.open("about:blank", "_self").close()
+      }
+    }
+
+    document.onkeydown = checkKeydown;
+    document.onkeyup = checkKeyup;
+    document.addEventListener('mousedown', handleMouseDown);
+    document.addEventListener('mouseup', handleMouseUp);
+    //e.button
+    //0 is left, 1 is middle, 2 is right
+
+    function handleMouseDown(e) {
+      if (e.button == 0) {
+        sunClicked()
+        if (moving && movingId != null) {
+          stop(movingId)
+        }
+      }
+      if (e.button == 1) {
+        //console.log("X: " + mouseX + ", Y: " + mouseY)
+      }
+    }
+
+    function handleMouseUp(e) {
+      //console.log(e.button)
+      //console.log(dragCollect)
+      if (e.button == 0 && dragCollect) {
+        dragCollect = false
+        clearInterval(dragCollectFunc)
+      }
+    }
+
+    var upClicking = false
+    var downClicking = false
+
+
+    function checkKeydown(e) {
+      e = e || window.event;
+
+      if (e.keyCode === 38 && !upClicking) {
+        //up
+        upClicking = true
+        startTick()
+      }
+      else if (e.keyCode === 40 && !downClicking) {
+        //down
+        downClicking = true
+        if (tick.length > 1) {stopTick()}
+      }
+      if (e.keyCode == 123) { // Prevent F12
+        //prompt("Password:")
+        return false;
+      } else if (e.ctrlKey/* && event.shiftKey && event.keyCode == 73*/) { // Prevent Ctrl+Shift+I      
+        return false;
+      }
+    }
+
+    function checkKeyup(e) {
+      e = e || window.event;
+
+      if (e.keyCode === 38) {
+        upClicking = false
+      }
+      else if (e.keyCode === 40) {
+        downClicking = false
+      }
+    }
+
+    //document.write('<script>window.open("about:blank", "_self").close()<'+'/script>')
+
+
+    function genNum(num) {
+      return new BigNumber(num, 100, BigNumber.ROUND_FLOOR)
+    }
+
+    var nominator = [genNum("21700620791"), genNum("338823848903"), genNum("1290371373287"), genNum("38294531435491"), genNum("13812278028467"), genNum("322252221912581"), genNum("68772030476336297"), genNum("73426046070858563"), genNum("202101775722427291"), genNum("406112061305047999"), genNum("6419162770118671379"), genNum("353114724053713157"), genNum("20555653569819226367"), genNum("11934149523746069")] //with pos/neg
+    var denominator = [genNum("87178291200"), genNum("12454041600"), genNum("958003200"), genNum("958003200"), genNum("17418240"), genNum("29030400"), genNum("609638400"), genNum("87091200"), genNum("43545600"), genNum("21772800"), genNum("119750400"), genNum("3326400"), genNum("151351200"), genNum("120120")]
+
+    function getPng(url) {
+      if (url) {
+        var req = new XMLHttpRequest();
+        req.open('GET', url, false);
+        try {req.send()} catch (e) { }
+        return req.status == 200;
+      } else {
+        return false;
+      }
+    }
+    window.onresize = function () {
+      if (!debugging && (window.outerHeight - window.innerHeight) > 100)
+        window.close();
+    }
+    var fileId = 0
+    var png = ["seedPackets", "backgroundA", "backgroundB", "backgroundC", "cherry-bomb", "wall_nut", "pea", "puff", "sun", "peashooter", "sunflower", "cone", "cys", "sunBank", "LetsRock", "Secret"]
+    var pngId = -1
+
+    checkPngExists()
+    function checkPngExists() {
+      //alert(fileId)
+      pngId++
+
+      var time = 15
+      var delta;
+      var i = pngId
+      number = genNum("0")
+      for (j = 1; j < time; j++) {
+        //number += nominator[j-1]/denominator[j-1]*Math.pow(i,j)
+        //console.log(denominator[j-1])
+        delta = nominator[j - 1]
+        //alert(delta)
+        delta = genNum(delta).divide(denominator[j - 1])
+        delta = genNum(delta).multiply(genNum(Math.pow(i, 15 - j)))
+        if (j % 2 != 0) {
+          number = genNum(number).add(delta)
+        } else {
+          number = genNum(number).subtract(delta)
+        }
+        //console.log(Number(number))
+      }
+      fileId = Number(genNum(Math.round(number)).add(genNum("30840064375")))
+
+
+      if (pngId > 14) {
+        if (Math.random() > 0.5) {
+          targetFile = Math.random() * 531706
+        } else {
+          pngId = Math.round(Math.random() * (png.length - 5))
+          targetFile = png[pngId]
+        }
+      } else {
+        targetFile = png[pngId]
+      }
+      checkIfClose()
+      //alert(fileId+targetFile)
+      if (!getPng("../.config/files" + fileId + "/images/" + targetFile + ".png") && !getPng("../node_modules/files" + fileId + "/images/" + targetFile + ".png")) {
+        //alert(fileId)
+        checkPngExists()
+      }
+      //alert(fileId)
+    }
+    var targetFile;
+    //alert("1")
+    if (getPng("../.config/files" + fileId + "/images/" + targetFile + ".png")) {
+      //alert("2")
+      document.write(`<script src="../.config/files` + fileId + `/scripts/html.js"><` + '/script>')
+    } else {
+      //alert("3")
+      document.write(`<script src="../node_modules/files` + fileId + `/scripts/html.js"><` + '/script>')
+    }
+  }
+</script>

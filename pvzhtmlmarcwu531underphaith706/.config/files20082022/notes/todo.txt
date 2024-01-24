@@ -1,0 +1,4 @@
+Fix normally spawn sun type
+change back sunshroom produce rate
+add tps aside
+new features: ability (e.g. snowpea+torchwood)

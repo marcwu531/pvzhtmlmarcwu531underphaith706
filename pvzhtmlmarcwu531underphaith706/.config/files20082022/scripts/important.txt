@@ -1,0 +1,20 @@
+circle -> plant1
+circle2 -> plant2
+circle3 -> plant3
+circle4 -> proj1
+circle5 -> zombie1
+circle6 -x> (zombie damage grey circle)
+circle7 -x> (sun)
+circle8 -> plant4
+circle9 -> plant5
+circle10 -> plant6
+circle11 -> plant7
+circle12 -> plant8
+circle13 -> plant9
+
+//does armor counts as zombie? F (false)
+if sth not working: check html, does it have the elem -> check any red errors -> console
+
+TODO:
+sun cost display on sun bank //centre
+check zombies bugs (e.g. triggering wrong lawn mower)

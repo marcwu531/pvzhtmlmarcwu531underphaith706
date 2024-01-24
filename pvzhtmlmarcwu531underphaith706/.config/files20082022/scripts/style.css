@@ -1,0 +1,798 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.not_drag {
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+#background {
+  z-index: 100;
+}
+
+#border {
+  height: 100%;
+  width: 100%;
+}
+
+/* change circle to their group -> plant / zombie / proj etc.*/
+/*1st plant 50 2nd 100 etc*/
+
+#plant1 {
+  width: 0px;
+  height: 0px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: lightgreen;
+  z-index: 0;
+  left: 20px;
+  top: 125px;
+}
+
+#plant2 {
+  width: 0px;
+  height: 0px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: lightgreen;
+  z-index: -1;
+  top: -100px;
+}
+
+#plant3 {
+  /*25px*/
+  width: 0px;
+  height: 0px;
+  /*border-radius: 50%;*/
+  position: absolute;
+  background-color: white;
+  /*green;*/
+  z-index: -2;
+  top: -100px;
+  filter: brightness(0.5)
+}
+
+#proj1 {
+  /*10 10*/
+  width: 0px;
+  height: 0px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: darkgreen;
+  z-index: -3;
+  top: -100px;
+}
+
+#proj2 {
+  width: 0px;
+  height: 0px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: darkgreen;
+  z-index: -3;
+  top: -100px;
+}
+
+#proj3 {
+  width: 0px;
+  height: 0px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: darkgreen;
+  z-index: -3;
+  top: -100px;
+}
+
+#zombie1 {
+  width: 0px;
+  height: 0px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: black;
+  z-index: 0;
+  top: -100px;
+}
+
+#circle6 {
+  width: 0px;
+  height: 0px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: grey;
+  z-index: 0.1;
+  top: -100px;
+}
+
+#circle7 {
+  width: 0px;
+  height: 0px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: yellow;
+  z-index: 1;
+  top: -100px;
+}
+
+#sunDisplay {
+  width: 1px;
+  height: 1px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: white;
+  z-index: 2;
+  top: 80px;
+  left: 26px;
+}
+
+/*sunflower*/
+#plant4 {
+  width: 0px;
+  height: 0px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: orange;
+  z-index: 0;
+  left: 55px;
+  top: 125px;
+}
+
+#plant5 {
+  position: absolute;
+  z-index: -1;
+  top: -100px;
+}
+
+#plant6 {
+  width: 0px;
+  height: 0px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: darkorange;
+  z-index: -2;
+  top: -100px;
+  filter: brightness(0.5)
+}
+
+#cone {
+  /*
+  width: 10px;
+  height: 20px;*/
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  background-color: brown;
+  z-index: -1.9;
+  top: -100px;
+}
+
+img {
+  /*border-radius: 50%;*/
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+#plant7 {
+  width: 0px;
+  height: 0px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: red;
+  z-index: 0;
+  left: 90px;
+  top: 125px;
+}
+
+#plant8 {
+  width: 0px;
+  height: 0px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: red;
+  z-index: -1;
+  top: -100px;
+}
+
+#plant9 {
+  width: 0px;
+  height: 0px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: darkred;
+  z-index: -2;
+  top: -100px;
+  filter: brightness(0.5)
+}
+
+#plant10 {
+  width: 0px;
+  height: 0px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: rosybrown;
+  z-index: 0;
+  left: 125px;
+  top: 125px;
+}
+
+#plant11 {
+  width: 0px;
+  height: 0px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: rosybrown;
+  z-index: -1;
+  top: -100px;
+}
+
+#plant12 {
+  width: 0px;
+  height: 0px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: sandybrown;
+  z-index: -2;
+  top: -100px;
+  filter: brightness(0.5)
+}
+
+#CysBg {
+  top: 100px;
+  /*70*/
+  position: absolute;
+  z-index: -3;
+}
+
+#SeedBank {
+  top: 40px;
+  position: absolute;
+  z-index: -3;
+}
+
+#LetsRock {
+  left: 100px;
+  top: 365px;
+  position: absolute;
+  z-index: 0;
+}
+
+#LetsRockRd{
+  left: 100px;
+  top: 365px;
+  position: absolute;
+  z-index: -1;
+}
+
+.bg{
+  position: absolute;
+  z-index: -10;
+  left: -125px;
+  top: 0px;
+}
+
+#downBorder {
+  position: absolute;
+  z-index: 10;
+  background-color: white;
+  width: 2000px;
+  height: 200px;
+  top: 450px;
+  left: -500px;
+}
+
+#rightBorder {
+  position: absolute;
+  z-index: 10;
+  background-color: white;
+  width: 275px;
+  height: 450px;
+  top: 0px;
+  left: 600px;
+}
+
+#basicZombieGif {
+  position: absolute;
+  z-index: 0;
+  top: -100px;  
+}
+
+#basicZombieEatGif {
+  position: absolute;
+  z-index: 0;
+  top: -100px;  
+}
+
+#lawnMower1 {
+  position: absolute;
+  z-index: 1;
+  top: -100px; /*70px*/
+  left: -10px;
+}
+
+#lawnMower2 {
+  position: absolute;
+  z-index: 1;
+  top: -100px;
+  left: -10px;
+}
+
+#lawnMower3 {
+  position: absolute;
+  z-index: 1;
+  top: -100px;
+  left: -10px;
+}
+
+#lawnMower4 {
+  position: absolute;
+  z-index: 1;
+  top: -100px;
+  left: -10px;
+}
+
+#lawnMower5 {
+  position: absolute;
+  z-index: 1;
+  top: -100px;
+  left: -10px;
+}
+
+/*top 150px*/
+
+#startSet {
+  position: absolute;
+  z-index: 10;
+  top: -150px;
+  left: 150px;
+}
+
+#startReady {
+  position: absolute;
+  z-index: 10;
+  top: -150px;
+  left: 150px;
+}
+
+#startPlant {
+  position: absolute;
+  z-index: 10;
+  top: -150px;
+  left: 150px;
+}
+
+#background {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -10;
+}
+
+#ZombiesWon {
+  position: absolute;
+  top: -500px;
+  left: 0px;
+  z-index: 100;
+}
+
+#ZombiesWon img {
+  width: 100%;
+  height: 100%;
+}
+
+#borderBig {
+  background-color: white;
+  z-index: -20;
+  position: absolute;
+  width: 5000px;
+  height: 5000px;
+  top: -2500px;
+  left: -2500px;
+}
+
+#shovel {
+  position: absolute;
+  left: 313px;
+  z-index: 1;
+  top: 45px;
+}
+
+#shovelBank {
+  position: absolute;
+  left: 308px;
+  top: 40px;
+}
+
+#background {
+  z-index: 100px;
+}
+
+#powie {
+  position: absolute;
+  top: -200px;
+  z-index: 10;
+}
+
+#plant13 {
+  width: 0px;
+  height: 0px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: rosybrown;
+  z-index: 0;
+  left: 160px; /*+35*/
+  top: 125px;
+}
+
+#plant14 {
+  width: 0px;
+  height: 0px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: rosybrown;
+  z-index: -1;
+  top: -100px;
+}
+
+#plant15 {
+  width: 0px;
+  height: 0px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: sandybrown;
+  z-index: -2;
+  top: -100px;
+  filter: brightness(0.5)
+}
+
+#plant16 {
+  width: 0px;
+  height: 0px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: rosybrown;
+  z-index: 0;
+  left: 195px; /*+35*/
+  top: 125px;
+}
+
+#plant17 {
+  width: 0px;
+  height: 0px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: rosybrown;
+  z-index: -1;
+  top: -100px;
+}
+
+#plant18 {
+  width: 0px;
+  height: 0px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: sandybrown;
+  z-index: -2;
+  top: -100px;
+  filter: brightness(0.5)
+}
+
+#plant19 {
+  width: 0px;
+  height: 0px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: rosybrown;
+  z-index: 0;
+  left: 230px; /*+35*/
+  top: 125px;
+}
+
+#plant20 {
+  width: 0px;
+  height: 0px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: rosybrown;
+  z-index: -1;
+  top: -100px;
+}
+
+#plant21 {
+  width: 0px;
+  height: 0px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: sandybrown;
+  z-index: -2;
+  top: -100px;
+  filter: brightness(0.5)
+}
+
+#plant22 {
+  width: 0px;
+  height: 0px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: rosybrown;
+  z-index: 0;
+  left: 265px; /*+35*/
+  top: 125px;
+}
+
+#plant23 {
+  width: 0px;
+  height: 0px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: rosybrown;
+  z-index: -1;
+  top: -100px;
+}
+
+#plant24 {
+  width: 0px;
+  height: 0px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: sandybrown;
+  z-index: -2;
+  top: -100px;
+  filter: brightness(0.5)
+}
+
+#randomSeed {
+  left: 400px;
+  top: 365px;
+  position: absolute;
+  z-index: 0;
+}
+
+#randomSeedText {
+  width: 1px;
+  height: 1px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: white;
+  z-index: 2;
+  top: 365px;
+  left: 400px;
+}
+
+#coneZombieGif {
+  position: absolute;
+  z-index: 0;
+  top: -100px;  
+}
+
+#coneZombieEatGif {
+  position: absolute;
+  z-index: 0;
+  top: -100px;  
+}
+
+#bucketZombieGif {
+  position: absolute;
+  z-index: 0;
+  top: -100px;  
+}
+
+#bucketZombieEatGif {
+  position: absolute;
+  z-index: 0;
+  top: -100px;  
+}
+
+#chomperEatGif {
+  position: absolute;
+  z-index: 0;
+  top: -100px;
+}
+
+#chomperChewGif {
+  position: absolute;
+  z-index: 0;
+  top: -100px;
+}
+
+#chomperSwallowGif {
+  position: absolute;
+  z-index: 0;
+  top: -100px;
+}
+
+#polevaulterZombieGif {
+  position: absolute;
+  z-index: 0;
+  top: -100px;
+}
+
+#polevaulterZombieEatGif {
+  position: absolute;
+  z-index: 0;
+  top: -200px;
+}
+
+#polevaulterZombieJumpGif {
+  position: absolute;
+  z-index: 0;
+  top: -200px;
+}
+
+#polevaulterZombieWalkGif {
+  position: absolute;
+  z-index: 0;
+  top: -200px;
+}
+
+#plant61 {
+  width: 0px;
+  height: 0px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: rosybrown;
+  z-index: 0;
+  left: 160px; /*+35*/
+  top: 223px;
+}
+
+#paperZombieWalkGif {
+  position: absolute;
+  z-index: 0;
+  top: -200px;
+}
+
+#paperZombieEatGif {
+  position: absolute;
+  z-index: 0;
+  top: -200px;
+}
+
+#paperZombieGaspGif {
+  position: absolute;
+  z-index: 0;
+  top: -200px;
+}
+
+#paperZombieNopaperWalkGif {
+  position: absolute;
+  z-index: 0;
+  top: -200px;
+}
+
+#paperZombieNopaperEatGif {
+  position: absolute;
+  z-index: 0;
+  top: -200px;
+}
+
+#plant25 {
+  width: 0px;
+  height: 0px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: lightgreen;
+  z-index: 0;
+  left: 20px;
+  top: 174px;
+}
+
+#plant26 {
+  width: 0px;
+  height: 0px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: lightgreen;
+  z-index: -1;
+  top: -100px;
+}
+
+#plant27 {
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  background-color: white;
+  z-index: -2;
+  top: -100px;
+  filter: brightness(0.5)
+}
+
+#plant28 {
+  width: 0px;
+  height: 0px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: lightgreen;
+  z-index: 0;
+  left: 55px;
+  top: 174px;
+}
+
+#plant29 {
+  width: 0px;
+  height: 0px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: lightgreen;
+  z-index: -1;
+  top: -100px;
+}
+
+#plant30 {
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  background-color: white;
+  z-index: -2;
+  top: -100px;
+  filter: brightness(0.5)
+}
+
+#smallSun {
+  position: absolute;
+  z-index: 0;
+  top: -200px;
+}
+
+#sunShroomGrowGif {
+  position: absolute;
+  z-index: 0;
+  top: -200px;
+}
+
+#sunShroomBigGif {
+  position: absolute;
+  z-index: 0;
+  top: -200px;
+}
+
+#tpsCounter {
+  left: 10px;
+  top: 460px;
+  position: absolute;
+  z-index: 100;
+}
+
+#login {
+  left: 100px;
+  top: 460px;
+  position: absolute;
+  z-index: 100;
+}
+
+#loginMenu {
+  width: 1000px;
+  height: 450px;
+  position: absolute;
+  background-color: black;
+  z-index: 1000;
+  top: 0px;
+  left: 0px;
+  display: none;
+}
+
+#username {
+  width: 100px;
+  height: 50px;
+  position: absolute;
+  background-color: white;
+  z-index: 1001;
+  top: 0px;
+  left: 0px;
+}
+
+#password {
+  width: 100px;
+  height: 50px;
+  position: absolute;
+  background-color: white;
+  z-index: 1001;
+  top: 100px;
+  left: 0px;
+}
