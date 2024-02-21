@@ -1,1 +1,1 @@
-var debugging = !(true)
+var debugging = (true)

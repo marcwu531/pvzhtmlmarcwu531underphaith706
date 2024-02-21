@@ -796,3 +796,174 @@ img {
   top: 100px;
   left: 0px;
 }
+
+#loginFr {
+  left: 100px;
+  top: 200px;
+  position: absolute;
+  z-index: 1001;
+}
+
+#loginInfo {
+  left: 100px;
+  top: 300px;
+  position: absolute;
+  z-index: 1001;
+  width: 1000px;
+  height: 100px;
+  color: white;
+}
+
+#exportAcc {
+  left: 200px;
+  top: 20px;
+  position: absolute;
+  z-index: 1001;
+}
+
+#exportedInfo {
+  left: 200px;
+  top: 50px;
+  position: absolute;
+  z-index: 1001;
+  width: 1000px;
+  height: 100px;
+  color: white;
+}
+
+#importAcc {
+  left: 200px;
+  top: 80px;
+  position: absolute;
+  z-index: 1001;
+}
+
+#importInput {
+  left: 200px;
+  top: 110px;
+  position: absolute;
+  z-index: 1001;
+}
+
+#showStats {
+  left: 200px;
+  top: 460px;
+  position: absolute;
+  z-index: 100;
+}
+
+#stats {
+  left: 650px;
+  top: 0px;
+  position: absolute;
+  z-index: 1001;
+  width: 1000px;
+  height: 100px;
+  color: black;
+}
+
+#upgrade {
+  left: 300px;
+  top: 460px;
+  position: absolute;
+  z-index: 100;
+}
+
+#upgradeMenu {
+  width: 1000px;
+  height: 450px;
+  position: absolute;
+  background-color: white;
+  z-index: 1000;
+  top: 0px;
+  left: 0px;
+  display: none;
+}
+
+#upgrade1 {
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  z-index: 10000;
+  left: 20px;
+  top: 125px;
+  display: none;
+}
+
+#upgrade1Tooltip  {
+  width: 1000px;
+  height: 1px;
+  position: absolute;
+  z-index: 10000;
+  left: 20px;
+  top: 300px;
+  display: none;
+}
+
+#upgrade1:hover + #upgrade1Tooltip {
+  display: block;
+}
+
+#upgrade2 {
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  z-index: 10000;
+  left: 20px;
+  top: 125px;
+  display: none;
+}
+
+#upgrade2Tooltip  {
+  width: 1000px;
+  height: 1px;
+  position: absolute;
+  z-index: 10000;
+  left: 20px;
+  top: 300px;
+  display: none;
+}
+
+#upgrade2:hover + #upgrade2Tooltip {
+  display: block;
+}
+
+#svg  {
+  z-index: 9999;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: none;
+}
+
+#line  {
+  z-index: 9999;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+#upgrade3 {
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  z-index: 10000;
+  left: 20px;
+  top: 125px;
+  display: none;
+}
+
+#svg1  {
+  z-index: 9999;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: none;
+}
+
+#line1  {
+  z-index: 9999;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
